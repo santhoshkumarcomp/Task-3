@@ -1,0 +1,240 @@
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  margin-left: 142px;
+  margin-right: 114px;
+  border: 1px solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+  background-color: #fefcfb;
+  height: 1000vh;
+}
+h1 {
+  font-size: 60px;
+}
+.title,
+.nav,
+.n-button {
+  display: inline;
+  padding-left: 25px;
+  font-family: Poppins;
+}
+.nav,
+.n-button {
+  display: inline-flex;
+  gap: 33px;
+  align-items: center;
+}
+.nav,
+a,
+a:visited {
+  color: #222222;
+  text-decoration: none;
+}
+.page1 {
+  display: flex;
+  justify-content: center;
+}
+#orange-text {
+  color: #fd8d3a;
+}
+.ellipse {
+  position: relative;
+  top: 410px;
+  left: 287px;
+  transform: translate(-50%, -50%);
+  height: 250px;
+  width: 500px;
+  border-radius: 0 0 300px 300px;
+  background-color: #fd8d3a;
+}
+.text-area {
+  width: 520px;
+}
+.plane {
+  width: 500px;
+  position: relative;
+  top: -287px;
+  left: -24px;
+}
+:root {
+  --primary-color: #fa7436;
+  --para-color: #666666;
+  --grey: #999999;
+  --primary-b: #222222;
+  --color-b-1: #444444;
+}
+.filter-sec {
+  margin-top: auto;
+  font-family: Poppins;
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  gap: 48px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.filter-item {
+  flex-shrink: 0;
+  min-width: 136px;
+}
+.filter-item > h3 {
+  display: inline;
+}
+
+.filter-item > i {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.page1bar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 14px;
+}
+
+.h-lines {
+  height: 2px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  display: block;
+  position: relative;
+  top: 20px;
+  right: 0;
+}
+.page2 {
+  height: 350px;
+}
+.page2,
+.page2Bar {
+  background-color: #f7f8fc;
+  font-family: Poppins;
+}
+.page2 > h1 {
+  position: relative;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  top: 40 px;
+  left: 400px;
+  padding-left: 5px;
+  width: 520px;
+}
+.page2 > p {
+  position: relative;
+  left: 400px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  width: 520px;
+}
+.things {
+  display: flex;
+  gap: 24px;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thing-card {
+  background-color: white;
+  padding: 16px;
+  max-width: 350px;
+  flex-grow: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.page3 > h1 {
+  position: relative;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  top: 40 px;
+  left: 400px;
+  padding-left: 5px;
+  width: 548px;
+}
+.page3 > p {
+  position: relative;
+  left: 423px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  width: 520px;
+}
+
+.bookings {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 16px;
+  flex-wrap: wrap;
+}
+
+.booking-card {
+  background-color: white;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.card-title {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title > h3 {
+  margin: 0;
+}
+
+.rating > i {
+  color: yellow;
+}
+
+.card-bottom {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-bottom > span {
+  color: var(--para-color);
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: var(--para-color);
+}
+.new-price {
+  color: var(--primary-color);
+  background-color: rgba(250, 116, 54, 0.2);
+  border-radius: 4px;
+}
+
+.book-btn {
+  visibility: hidden;
+  position: absolute;
+  bottom: 10px;
+  right: 90px;
+}
+
+.booking-card img:hover + .book-btn,
+.book-btn:hover {
+  visibility: visible;
+}
