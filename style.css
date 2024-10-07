@@ -341,6 +341,6 @@ a:visited {
 .Subscribe-bar > i {
   position: absolute;
   left: 256px;
-  top: 162px;
-  color: #fa7436;
+  top: 169px;
+  color: var(--para-color);
 }
