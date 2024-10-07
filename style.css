@@ -311,3 +311,21 @@ a:visited {
 .book-btn:hover {
   visibility: visible;
 }
+.Subscribe-bar {
+  position: relative;
+  top: 100px;
+  left: 245px;
+  background-color: #fa7436;
+  background-image: url("Group 42.png");
+  background-repeat: no-repeat;
+  background-position-y: 150px;
+  width: 60%;
+  height: 320px;
+  border-radius: 32px;
+}
+.Subscribe-bar > h2 {
+  color: white;
+  padding-left: 250px;
+  padding-top: 70px;
+  width: 345px;
+}
