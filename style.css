@@ -344,3 +344,15 @@ a:visited {
   top: 169px;
   color: var(--para-color);
 }
+footer {
+  display: inline-flex;
+  position: absolute;
+  gap: 138px;
+  top: 4407px;
+  left: 245px;
+}
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
