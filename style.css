@@ -15,6 +15,7 @@ header {
 body {
   background-color: #fefcfb;
   height: 1000vh;
+  scroll-behavior: smooth;
 }
 h1 {
   font-size: 60px;
@@ -328,4 +329,18 @@ a:visited {
   padding-left: 250px;
   padding-top: 70px;
   width: 345px;
+}
+.email {
+  position: absolute;
+  width: 345px;
+  height: 35px;
+  border-radius: 8px;
+  border: none;
+  left: 250px;
+}
+.Subscribe-bar > i {
+  position: absolute;
+  left: 256px;
+  top: 162px;
+  color: #fa7436;
 }
