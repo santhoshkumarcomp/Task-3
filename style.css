@@ -38,7 +38,7 @@ a:visited {
   color: #222222;
   text-decoration: none;
 }
-.page1 {
+#page1 {
   display: flex;
   justify-content: center;
 }
@@ -114,15 +114,15 @@ a:visited {
   top: 20px;
   right: 0;
 }
-.page2 {
+#page2 {
   height: 350px;
 }
-.page2,
+#page2,
 .page2Bar {
   background-color: #f7f8fc;
   font-family: Poppins;
 }
-.page2 > h1 {
+#page2 > h1 {
   position: relative;
   font-size: 40px;
   display: flex;
@@ -133,7 +133,7 @@ a:visited {
   padding-left: 5px;
   width: 520px;
 }
-.page2 > p {
+#page2 > p {
   position: relative;
   left: 400px;
   font-size: 20px;
@@ -159,7 +159,7 @@ a:visited {
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
-.page3 > h1 {
+#page3 > h1 {
   position: relative;
   font-size: 40px;
   display: flex;
@@ -170,7 +170,7 @@ a:visited {
   padding-left: 5px;
   width: 548px;
 }
-.page3 > p {
+#page3 > p {
   position: relative;
   left: 423px;
   font-size: 20px;
@@ -238,7 +238,7 @@ a:visited {
 .book-btn:hover {
   visibility: visible;
 }
-.page4 > h1 {
+#page4 > h1 {
   position: relative;
   font-size: 40px;
   display: flex;
@@ -249,7 +249,7 @@ a:visited {
   padding-left: 5px;
   width: 548px;
 }
-.page4 > p {
+#page4 > p {
   position: relative;
   left: 423px;
   font-size: 20px;
