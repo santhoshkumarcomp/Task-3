@@ -238,3 +238,76 @@ a:visited {
 .book-btn:hover {
   visibility: visible;
 }
+.page4 > h1 {
+  position: relative;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  top: 40 px;
+  left: 400px;
+  padding-left: 5px;
+  width: 548px;
+}
+.page4 > p {
+  position: relative;
+  left: 423px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  width: 520px;
+}
+.bookingsi {
+  display: inline-flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 16px;
+  flex-wrap: wrap;
+}
+
+.booking-cardi {
+  background-color: white;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.card-titlei {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-titlei > h3 {
+  margin: 0;
+  color: #444444;
+}
+
+.rating > i {
+  color: yellow;
+}
+
+.card-bottomi {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-bottomi > span {
+  color: black;
+}
+
+.old-pricei {
+  color: #fa7436;
+}
+
+.book-btn {
+  visibility: hidden;
+  position: absolute;
+  bottom: 10px;
+  right: 90px;
+}
+
+.booking-cardi img:hover + .book-btn,
+.book-btn:hover {
+  visibility: visible;
+}
