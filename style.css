@@ -360,3 +360,41 @@ ul {
 li {
   color: #666666;
 }
+@media screen and (max-width: 810px) {
+  header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 1px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .title,
+  .nav,
+  .n-button {
+    display: inline;
+    padding-left: 25px;
+    font-family: Poppins;
+  }
+  .nav,
+  .n-button {
+    display: inline-flex;
+    gap: 11px;
+    align-items: center;
+  }
+  .nav,
+  a,
+  a:visited {
+    color: #222222;
+    text-decoration: none;
+  }
+}
