@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 header {
   display: flex;
   flex-wrap: nowrap;
@@ -15,7 +18,7 @@ header {
 body {
   background-color: #fefcfb;
   height: 1000vh;
-  scroll-behavior: smooth;
+
   font-family: Poppins;
 }
 h1 {
@@ -396,5 +399,69 @@ li {
   a:visited {
     color: #222222;
     text-decoration: none;
+  }
+  #page1 > img {
+    display: none;
+  }
+  .ellipse {
+    display: none;
+  }
+  .ellipse > img {
+    display: none;
+  }
+  #page2 > h1 {
+    left: 150px;
+  }
+  #page2 > p {
+    left: 150px;
+  }
+  #page3 > h1 {
+    left: 150px;
+  }
+  #page3 > p {
+    left: 150px;
+  }
+  #page4 > h1 {
+    left: 150px;
+  }
+  #page4 > p {
+    left: 150px;
+  }
+  #page5 > #i1 {
+    top: 4435px !important;
+    left: 444px !important;
+    width: 400px;
+  }
+
+  #page5 > #i2 {
+    display: none;
+  }
+  footer {
+    top: 6202px;
+    left: 26px;
+    gap: 100px;
+  }
+  .Subscribe-bar > h2 {
+    color: white;
+    padding-left: 111px;
+    padding-top: 70px;
+    width: 345px;
+  }
+  .email {
+    position: absolute;
+    width: 345px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    left: 111px;
+  }
+  .Subscribe-bar > i {
+    position: absolute;
+    left: 117px;
+    top: 169px;
+    color: var(--para-color);
+  }
+  .Subscribe-bar > button {
+    left: 383px;
   }
 }
